@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about the Kapwa Ko Mahal Ko">
+    <meta name="author" content="Kapwa Ko Mahal Ko Team">
+    <title>Programs | Kapwa Ko Mahal Ko</title>
+
+    <link rel="icon" href="logo.webp" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            background-color: rgb(225, 233, 243);
+            text-align: center;
+            font-family: 'Madimi One', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: linear-gradient(to right, #fff0f0, #feb47b);
+            padding: 12px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 17px;
+        }
+
+        footer {
+            background: linear-gradient(to right, #fff0f0, #feb47b);
+            color: #fff;
+            text-align: center;
+            padding: 11px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+            height: 43px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 0px 20px;
+            background: linear-gradient(to right, #fff0f0, #feb47b);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #fff;
+            color: #e7c368;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        h1 {
+            margin: 2px 0;
+            color: #ffe74c;
+        }
+
+        h3 {
+            color: #ffe74c;
+        }
+
+        .programs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .program {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin-bottom: 50px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .program:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .program h3 {
+            margin-bottom: 10px;
+        }
+
+        .program img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .logo img {
+            height: 37px; 
+            width: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.webp" alt="Kapwa Ko Mahal Ko Logo">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="donation.html">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Our Programs</h1>
+        <div class="programs">
+            <div class="program">
+                <h3>Interaction with Orphans</h3>
+                <img src="programs1.webp" alt="Interaction with Orphans">
+                <p>Having conversations, playing physical games, and giving a tour around the School Campus. These activites can help develope a sense of experience and acknowledgement to the orphans.</p>
+            </div>
+            <div class="program">
+                <h3>Handing Out Delicious Food</h3>
+                <img src="programs2.webp" alt="Handing Out Food">
+                <p>Providing nutritious meals to children to support their growth and development.</p>
+            </div>
+            <div class="program">
+                <h3>Study Support Workshops</h3>
+                <img src="programs3.webp" alt="Study Support Workshops">
+                <p>Provide tutoring, career guidance, or life skills training. These would help children in orphanages bridge learning gaps, improve academic performance, and develop essential skills like critical thinking and time management.</p>
+            </div>
+            <div class="program">
+                <h3>Performances and Donations</h3>
+                <img src="programs4.webp" alt="Performances and Donations">
+                <p>For beneficiaries, these would address needs like food, clothing, educational supplies, and more. For donors, these would foster empathy and community engagement, creating a more connected and supportive society.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kapwa Ko Mahal Ko</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kapwa Ko Mahal Ko</title>
+
+    <link rel="icon" href="logo.webp" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Madimi One', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(225, 233, 243);
+        }
+
+        header {
+            background: linear-gradient(to right, #fff0f0, #feb47b);
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+        }
+
+        footer {
+            background: linear-gradient(to right, #fff0f0, #feb47b);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 0 20px;
+            background: linear-gradient(to right, #fff0f0, #feb47b);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #fff;
+            color: #e7c368;
+        }
+
+        .logo img {
+            height: 40px; 
+            width: auto;
+        }
+
+        .greet {
+            background: url(indexbg.webp);
+            padding: 50px;
+            height: 200px;
+            background-size: cover;
+            text-align: left;
+            color: rgb(255, 255, 255);
+            display: flex;
+            background-position: center;
+            flex-direction: column;
+        }
+
+        .greet-content {
+            max-width: 600px;
+            margin-left: 20px;
+        }
+
+        .content {
+            padding: 20px;
+            margin-top: 0;
+            margin-bottom: 80px;
+        }
+
+        .events {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .event-box {
+            width: 30%;
+            border: dashed 5px #ffe74c;
+            background: white;
+            padding: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .event-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .event-box iframe {
+            width: 100%;
+            height: 240px;
+        }
+
+        .event-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            margin-left: 20px;
+            margin-bottom: 0;
+        }
+
+        p2 {
+            margin-left: 20px;
+            margin-top: 0;
+        }
+
+        h1 {
+            color: #ffe74c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.webp" alt="Kapwa Ko Mahal Ko Logo">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="donation.html">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="greet">
+        <h1>Kapwa Ko Mahal Ko</h1>
+        <p>To provide a nurturing environment and emotional <br> support, we prepare interactive programs to <br> bring joy to the children and learn from them.</p>
+    </div>
+    <div class="content">
+        <h2>Latest Event</h2>
+        <p2>January 18, 2025</p2>
+        <div class="events">
+            <div class="event-box">
+            <iframe src="https://www.youtube.com/embed/kIVqn-xukQ0" allowfullscreen></iframe>
+            </div>
+
+            <div class="event-box">
+                <img src="event1.webp" alt="event1" width="100%">
+            </div>
+
+            <div class="event-box">
+                <img src="event2.webp" alt="event2" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kapwa Ko Mahal Ko</p>
+    </footer>
+</body>
+</html>
